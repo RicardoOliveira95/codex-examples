@@ -1,3 +1,4 @@
+// OPENAI CODEX - Instructions
 // Create a quizz app on java swing with country flags displayed on top of each question, asking the user wich countries corresponds to the flag shown on each question, with the options of all countries listed in checkboxes and the number of questions being the same as the number of flags, display the final score when user finishes quizz
 // Run quizz app
 
