@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sign Up Form</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Open Sans', sans-serif;
+      background: #f7f7f7;
+      padding: 30px 0;
+      margin: 0 auto;
+    }
+
+    .container {
+      width: 500px;
+      margin: 10px auto;
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        width: 90%;
+        margin: 10px auto;
+      }
+    }
+
+    h1 {
+      font-size: 24px;
+    }
+
+    form {
+      background: #fff;
+      padding: 20px;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 8px;
+    }
+
+    .field {
+      margin-bottom: 20px;
+    }
+
+    .field label {
+      font-weight: bold;
+      font-size: 14px;
+    }
+
+    input[type="text"],
+    input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    input[type="submit"] {
+      background: #00a8ff;
+      color: #fff;
+      padding: 10px;
+      border: 1px solid #00a8ff;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+
+    input[type="submit"]:hover {
+      background: #006dd9;
+      border: 1px solid #006dd9;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Sign Up</h1>
+    <form>
+      <div class="field">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" />
+      </div>
+      <div class="field">
+        <label for="email">Email</label>
+        <input type="text" name="email" id="email" />
+      </div>
+      <div class="field">
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" />
+      </div>
+      <input type="submit" value="Sign Up" />
+    </form>
+  </div>
+</body>
+</html>
