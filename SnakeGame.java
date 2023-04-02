@@ -1,3 +1,6 @@
+// OPENAI CODEX - instructions
+// Create a java version of snake game, using java swing and awt packages
+
 import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.event.KeyEvent;
