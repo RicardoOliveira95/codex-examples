@@ -1,3 +1,6 @@
+# Create pong game with python using pygame
+# Move paddles with arrow keys
+# Generate ball with random direction
 import pygame 
 import random 
 
